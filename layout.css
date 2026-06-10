@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.flex {
+  background-color: rgb(250, 244, 244);
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+}
+.art {
+  background-color: rgb(250, 244, 244);
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+  width: 80%;
+}
+.sid {
+  background-color: rgb(250, 244, 244);
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+  width: 40%;
+}
+.t {
+  display: flex;
+}
+.f {
+  background-color: rgb(250, 244, 244);
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.529);
+}
+@media (max-width: 640px) {
+  .t {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.t {
+  text-align: center;
+}
+.p img {
+  width: 120px;
+  display: flex;
+  padding: 2px 2px;
+}
+.all {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 640px) {
+  .all {
+    display: block;
+    padding: 20px 0px;
+  }
+  .p img {
+    width: 100%;
+    align-items: center;
+  }
+}

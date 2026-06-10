@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Topnav</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <h1>WCT</h1>
+      <div class="icon" onclick="showmenu()">
+        <li>
+          <a href="javascript:void(0)"><i class="fa-solid fa-bars"></i></a>
+        </li>
+      </div>
+      <div class="menu" id="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Course</a></li>
+          <li><a href="#">Labs</a></li>
+          <li><a href="#">Resource</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="navi">
+      <h1>Responsive Top Navigation</h1>
+      <p>
+        Resize the brower to see the menu collap into a mobile toggle at &le;
+        640px.
+      </p>
+    </div>
+    <script>
+      function showmenu() {
+        document.getElementById("menu").classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>
